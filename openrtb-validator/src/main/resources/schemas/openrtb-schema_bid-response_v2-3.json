@@ -29,7 +29,10 @@
 		},
 		"ext": {
 			"type": "object"
-		}
+		},
+		"statuscode": {
+      "type": "number"
+    }
 	},
 	"definitions": {
 		"seatbid": {
@@ -51,7 +54,10 @@
 				},
 				"ext": {
 					"type": "object"
-				}
+				},
+				"buyer": {
+          "type": "string"
+        }
 			}
 		},
 		"bid": {
@@ -166,7 +172,7 @@
 			"maximum": 8
 		},
 
-		
+
 		"boolean_int": {
 			"type": "integer",
 			"minimum": 0,
@@ -182,5 +188,5 @@
 			"maxLength": 3,
 			"pattern": "[a-zA-Z]{3}"
 		}
-	}	
+	}
 }
